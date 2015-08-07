@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.fetech.sanyi" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".SanyiApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ResourcesUserActivity"
+            android:label="@string/title_activity_resources_user" />
+        <activity
+            android:name=".activity.UserDetailActivity"
+            android:label="@string/title_activity_user_detail"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.CreateOrderActivity"
+            android:label="@string/title_activity_create_order"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.GoodsListActivity"
+            android:label="@string/title_activity_goods_list"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".activity.AddFollowUpActivity"
+            android:label="@string/title_activity_add_follow_up"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.CreateHetongActivity"
+            android:label="@string/title_activity_create_hetong"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.CreateGoodsActivity"
+            android:label="@string/title_activity_create_goods" />
+        <activity
+            android:name="com.wq.photo.MediaChoseActivity"
+            android:label="@string/title_activity_create_goods" />
+        <activity
+            android:name=".activity.TxlUserActivity"
+            android:label="@string/title_activity_txl_user" />
+        <activity
+            android:name=".activity.InnerTxlActivity"
+            android:label="@string/title_activity_inner_txl" />
+        <activity
+            android:name=".activity.MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name=".activity.MyTaskActivity"
+            android:label="@string/title_activity_my_task" >
+        </activity>
+        <activity
+            android:name=".activity.AddContactsActivity"
+            android:label="@string/title_activity_add_contacts" >
+        </activity>
+        <activity
+            android:name=".activity.CoustomUserActivity"
+            android:label="@string/title_activity_coustom_user" >
+        </activity>
+        <activity
+            android:name=".activity.SupplierUserActivity"
+            android:label="@string/title_activity_supplier_user" >
+        </activity>
+        <activity
+            android:name=".activity.CustomTuihuanActivity"
+            android:label="@string/title_activity_custom_tuihuan" >
+        </activity>
+        <activity
+            android:name=".activity.QuhuoActivity"
+            android:label="@string/title_activity_quhuo"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".activity.SupplierGaijiaActivity"
+            android:label="@string/title_activity_supplier_gaijia" >
+        </activity>
+        <activity
+            android:name=".activity.MimeActivity"
+            android:label="@string/title_activity_mime" >
+        </activity>
+        <activity
+            android:name=".activity.AddYingdiuOrderActivity"
+            android:label="@string/title_activity_add_yingdiu_order" >
+        </activity>
+        <activity
+            android:name=".activity.QingjiadanActivity"
+            android:label="@string/title_activity_qingjiadan" >
+        </activity>
+        <activity
+            android:name=".activity.AddQingjiadanActivity"
+            android:label="@string/title_activity_add_qingjiadan" >
+        </activity>
+        <activity
+            android:name=".activity.TaskDetailActivity"
+            android:label="@string/title_activity_task_detail" >
+        </activity>
+        <activity
+            android:name=".activity.AddTaskActivity"
+            android:label="@string/title_activity_add_task"
+            android:launchMode="singleTask" >
+        </activity>
+
+        <service
+            android:name=".service.UpdateUserService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".activity.AddOrderJiesuanActivity"
+            android:label="@string/title_activity_add_order_jiesuan" >
+        </activity>
+        <activity
+            android:name=".activity.AddHetongJiesuanActivity"
+            android:label="@string/title_activity_add_hetong_jiesuan" >
+        </activity>
+        <activity
+            android:name=".activity.JobBaogaoActivity"
+            android:label="@string/title_activity_job_baogao" >
+        </activity>
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+    </application>
+
+</manifest>

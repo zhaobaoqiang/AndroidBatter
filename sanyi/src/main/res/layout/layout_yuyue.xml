@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:onClick="performClick"
+        android:id="@+id/ll_canguanTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="5"
+            android:minEms="5"
+            android:padding="8dp"
+            android:text="参观时间"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_time_canguan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@mipmap/icon_rili"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="2015-07-02"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eeeeee" />
+
+
+    <LinearLayout
+        android:onClick="performClick"
+        android:id="@+id/ll_jiedairen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="5"
+            android:minEms="5"
+            android:padding="8dp"
+            android:text="接待人"
+            android:textSize="17sp" />
+
+        <TextView
+            android:onClick="performClick"
+            android:id="@+id/tv_jiedairen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@mipmap/icon_right"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:hint="请选择接待人"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eeeeee" />
+</LinearLayout>

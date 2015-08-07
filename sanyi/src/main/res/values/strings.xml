@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">三益</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="slide_opne">打开</string>
+    <string name="slide_close">关闭</string>
+
+
+    <string name="action_message">信息</string>
+
+    <string name="action_creste_contract">创建合同</string>
+    <string name="action_create_order">创建订单</string>
+    <string name="action_examine">审批</string>
+
+
+    <string name="main_first">首页</string>
+    <string name="main_resources">资源</string>
+    <string name="main_customer">客户</string>
+
+
+    <string name="job_number">工号:</string>
+
+    <string name="setting">设置</string>
+    <string name="exit">退出</string>
+
+
+
+    <string name="menu1">工作报告</string>
+    <string name="menu2">绩效考核</string>
+    <string name="menu3">仪表盘</string>
+    <string name="menu4">同步</string>
+    <string name="menu5">我的</string>
+
+    <string name="resources_manager">资源管理</string>
+
+    <string name="qianzaikeghu">个潜在客户</string>
+    <string name="yixiangkehu">个意向客户</string>
+    <string name="zhunkehu">个准客户</string>
+    <string name="zhengshikehu">个正式客户</string>
+
+
+    <string name="more">更多</string>
+    <string name="today_task">今日任务</string>
+    <string name="week_task">本周任务</string>
+
+
+
+    <string name="importance">重要性：</string>
+    <string name="priority">优先级：</string>
+    <string name="from">来源：</string>
+
+
+    <string name="serach">搜索</string>
+
+    <string name="jlxchfsj">距离下次回访时间</string>
+
+
+    <string name="huifang_state">回访状态</string>
+    <string name="huifang_state_all">所有状态</string>
+    <string name="huifang_state_week">一周未联系</string>
+    <string name="huifang_state_week2">二周未联系</string>
+    <string name="huifang_state_month">一个月未联系</string>
+
+    <string name="ziyuan_state">资源状态</string>
+    <string name="ziyuan_state_all">所有资源</string>
+    <string name="ziyuan_state_qianzai">潜在客户</string>
+    <string name="ziyuan_state_yixiang">意向客户</string>
+    <string name="ziyuan_state_zhun">准客户</string>
+
+    <string name="sure">确定</string>
+    <string name="title_activity_resources_user">ResourcesUserActivity</string>
+
+
+
+    <string name="userinfo">个人资料</string>
+
+    <string name="next_huifang_time">下次回访时间</string>
+
+    <string name="follow_up">添加跟进</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+
+
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="title_activity_create_order">CreateOrderActivity</string>
+    <string name="title_activity_goods_list">GoodsListActivity</string>
+    <string name="title_activity_add_follow_up">AddFollowUpActivity</string>
+    <string name="title_activity_create_hetong">CreateHetongActivity</string>
+    <string name="title_activity_create_goods">CreateGoodsActivity</string>
+    <string name="title_activity_txl_user">TxlUserActivity</string>
+    <string name="title_activity_inner_txl">InnerTxlActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_my_task">MyTaskActivity</string>
+    <string name="title_activity_add_contacts">AddContactsActivity</string>
+    <string name="title_activity_coustom_user">CoustomUserActivity</string>
+    <string name="title_activity_supplier_user">SupplierUserActivity</string>
+    <string name="title_activity_custom_tuihuan">CustomTuihuanActivity</string>
+    <string name="title_activity_quhuo">QuhuoActivity</string>
+    <string name="title_activity_supplier_gaijia">SupplierGaijiaActivity</string>
+    <string name="title_activity_mime">MimeActivity</string>
+    <string name="title_activity_add_yingdiu_order">AddYingdiuOrderActivity</string>
+    <string name="title_activity_qingjiadan">QingjiadanActivity</string>
+    <string name="title_activity_add_qingjiadan">AddQingjiadanActivity</string>
+    <string name="title_activity_task_detail">TaskDetailActivity</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="title_activity_add_order_jiesuan">AddOrderJiesuanActivity</string>
+    <string name="title_activity_add_hetong_jiesuan">AddHetongJiesuanActivity</string>
+    <string name="title_activity_job_baogao">JobBaogaoActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+</resources>

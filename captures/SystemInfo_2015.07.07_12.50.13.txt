@@ -1,0 +1,1834 @@
+Applications Graphics Acceleration Info:
+Uptime: 110667429 Realtime: 152764401
+
+** Graphics info for pid 4869 [tv.danmaku.bili] **
+
+Recent DisplayList operations
+                      Translate
+                      DrawText
+                      RestoreToCount
+                    DrawDisplayList
+                      Translate
+                      Save
+                      ClipRect
+                      Translate
+                      DrawText
+                      RestoreToCount
+                    DrawDisplayList
+                      Translate
+                      Save
+                      ClipRect
+                      Translate
+                      DrawText
+                      RestoreToCount
+          RestoreToCount
+        RestoreToCount
+        DrawPatch
+DrawDisplayList
+DrawRect
+DrawLayer
+DrawLayer
+multiDraw
+  DrawPatch
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawBitmap
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawRect
+DrawRect
+DrawRect
+DrawRect
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawRect
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         31063688 / 75497472
+  LayerCache            3801088 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache               90220 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache              10624 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    1 /       16
+Total memory usage:
+  36014196 bytes, 34.35 MB
+
+Profile data in ms:
+
+	tv.danmaku.bili/tv.danmaku.bili.MainActivity/android.view.ViewRootImpl@4334be98
+View hierarchy:
+
+  tv.danmaku.bili/tv.danmaku.bili.MainActivity/android.view.ViewRootImpl@4334be98
+  141 views, 20.68 kB of display lists, 3148 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        141
+Total DisplayList:  20.68 kB
+
+
+** Graphics info for pid 6726 [com.huawei.android.launcher] **
+
+Recent DisplayList operations
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawText
+DrawBitmapMatrix
+DrawBitmap
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawText
+DrawPatch
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawLayer
+DrawLayer
+DrawLayer
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          5140725 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache    380656 /  6291456
+  PatchCache                832 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    7 /       16
+Total memory usage:
+  6570789 bytes, 6.27 MB
+
+Profile data in ms:
+
+	com.huawei.android.launcher/com.huawei.android.launcher.Launcher/android.view.ViewRootImpl@434e2b10
+View hierarchy:
+
+  com.huawei.android.launcher/com.huawei.android.launcher.Launcher/android.view.ViewRootImpl@434e2b10
+  222 views, 0.00 kB of display lists, 5902 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        222
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 19342 [com.sina.weibo] **
+
+Recent DisplayList operations
+          DrawDisplayList
+DrawBitmapRect
+DrawColor
+DrawBitmapRect
+DrawBitmap
+DrawBitmap
+DrawDisplayList
+  DrawDisplayList
+    DrawDisplayList
+      DrawBitmapRect
+      DrawDisplayList
+        DrawColor
+      DrawDisplayList
+        DrawBitmapRect
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawBitmap
+            Save
+            DrawDisplayList
+              DrawBitmap
+            RestoreToCount
+          DrawDisplayList
+DrawBitmapRect
+DrawColor
+DrawBitmapRect
+DrawBitmap
+DrawBitmap
+DrawDisplayList
+  DrawDisplayList
+    DrawDisplayList
+      DrawBitmapRect
+      DrawDisplayList
+        DrawColor
+      DrawDisplayList
+        DrawBitmapRect
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawBitmap
+            Save
+            DrawDisplayList
+              DrawBitmap
+            RestoreToCount
+          DrawDisplayList
+DrawBitmapRect
+DrawColor
+DrawBitmapRect
+DrawBitmap
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          2793984 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache      3072 /  6291456
+  PatchCache              81024 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    1 /       16
+Total memory usage:
+  3926656 bytes, 3.74 MB
+
+Profile data in ms:
+
+	com.sina.weibo/com.sina.weibo.MainTabActivity/android.view.ViewRootImpl@434678d8
+	com.sina.weibo/com.sina.weibo.page.FragmentPageActivity/android.view.ViewRootImpl@433907c0
+View hierarchy:
+
+  com.sina.weibo/com.sina.weibo.MainTabActivity/android.view.ViewRootImpl@434678d8
+  581 views, 2.11 kB of display lists, 4644 frames rendered
+
+  com.sina.weibo/com.sina.weibo.page.FragmentPageActivity/android.view.ViewRootImpl@433907c0
+  480 views, 1.37 kB of display lists, 6448 frames rendered
+
+
+Total ViewRootImpl: 2
+Total Views:        1061
+Total DisplayList:  3.48 kB
+
+
+** Graphics info for pid 6687 [com.android.settings] **
+
+Recent DisplayList operations
+    ClipRect
+    DrawBitmapRect
+    Save
+    ClipRect
+    RestoreToCount
+  DrawDisplayList
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                  DrawPatch
+                  DrawPatch
+                  DrawPatch
+                  DrawPatch
+                  DrawPatch
+                  DrawDisplayList
+                  DrawDisplayList
+                    Save
+                    ClipRect
+                    DrawDisplayList
+                    DrawDisplayList
+                    DrawDisplayList
+                      DrawDisplayList
+                        Save
+                        ClipRect
+                        Translate
+                        RestoreToCount
+                        DrawPatch
+                        Save
+                        ClipRect
+                        DrawPatch
+                        Translate
+                        RestoreToCount
+                    RestoreToCount
+                  DrawDisplayList
+                  DrawDisplayList
+                  DrawDisplayList
+                  DrawDisplayList
+                  DrawDisplayList
+                  DrawDisplayList
+                  DrawDisplayList
+    DrawDisplayList
+    DrawDisplayList
+  RestoreToCount
+DrawPatch
+DrawPatch
+DrawPatch
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           256324 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache               8128 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    1 /       16
+Total memory usage:
+  1313028 bytes, 1.25 MB
+
+Profile data in ms:
+
+	com.android.settings/com.android.settings.HWSettings/android.view.ViewRootImpl@432960d8
+	com.android.settings/com.android.settings.Settings$WifiSettingsActivity/android.view.ViewRootImpl@435ba7a8
+View hierarchy:
+
+  com.android.settings/com.android.settings.HWSettings/android.view.ViewRootImpl@432960d8
+  126 views, 0.00 kB of display lists, 25 frames rendered
+
+  com.android.settings/com.android.settings.Settings$WifiSettingsActivity/android.view.ViewRootImpl@435ba7a8
+  98 views, 0.00 kB of display lists, 72 frames rendered
+
+
+Total ViewRootImpl: 2
+Total Views:        224
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3489 [com.android.phone] **
+
+Recent DisplayList operations
+                DrawPatch
+            DrawDisplayList
+              DrawDisplayList
+              DrawDisplayList
+                Save
+                ClipRect
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  Translate
+                  RestoreToCount
+                  DrawBitmap
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  Translate
+                  RestoreToCount
+                  DrawBitmap
+                RestoreToCount
+              DrawDisplayList
+                DrawPatch
+            DrawDisplayList
+              DrawDisplayList
+              DrawDisplayList
+                Save
+                ClipRect
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  Translate
+                  RestoreToCount
+                  DrawBitmap
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  Translate
+                  RestoreToCount
+                  DrawBitmap
+                RestoreToCount
+              DrawDisplayList
+    DrawDisplayList
+  RestoreToCount
+DrawPatch
+multiDraw
+  DrawPatch
+multiDraw
+  DrawBitmap
+DrawRect
+multiDraw
+  DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          1119780 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache               1216 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  2169572 bytes, 2.07 MB
+
+Profile data in ms:
+
+	com.android.incallui/com.android.incallui.MSimInCallActivity/android.view.ViewRootImpl@434a8e58
+View hierarchy:
+
+  com.android.incallui/com.android.incallui.MSimInCallActivity/android.view.ViewRootImpl@434a8e58
+  227 views, 0.00 kB of display lists, 328 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        227
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3344 [com.qq.reader] **
+Profile data in ms:
+
+	com.qq.reader/com.qq.reader.activity.ReaderPageActivity/android.view.ViewRootImpl@433592d8
+View hierarchy:
+
+  com.qq.reader/com.qq.reader.activity.ReaderPageActivity/android.view.ViewRootImpl@433592d8
+  128 views, 0.00 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        128
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3747 [com.android.contacts] **
+
+Recent DisplayList operations
+            Save
+            ClipRect
+            DrawDisplayList
+              Save
+              ClipRect
+              DrawText
+              RestoreToCount
+            RestoreToCount
+        DrawDisplayList
+          DrawBitmap
+  RestoreToCount
+DrawPatch
+multiDraw
+  DrawPatch
+multiDraw
+  DrawPatch
+DrawBitmapRect
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawBitmap
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawPatch
+DrawPatch
+multiDraw
+  DrawPatch
+multiDraw
+  DrawPatch
+multiDraw
+  DrawPatch
+multiDraw
+  DrawText
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           195664 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache               7744 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    1 /       16
+Total memory usage:
+  1251984 bytes, 1.19 MB
+
+Profile data in ms:
+
+	com.android.contacts/com.android.contacts.activities.DialtactsActivity/android.view.ViewRootImpl@436c86b0
+View hierarchy:
+
+  com.android.contacts/com.android.contacts.activities.DialtactsActivity/android.view.ViewRootImpl@436c86b0
+  285 views, 0.00 kB of display lists, 3 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        285
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 23189 [com.netease.pomelo.news.push.messageservice_V1] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 13690 [com.tencent.mobileqq] **
+
+Recent DisplayList operations
+                  DrawBitmap
+                DrawDisplayList
+                  DrawBitmap
+                DrawDisplayList
+                  DrawBitmap
+                DrawDisplayList
+                  DrawPatch
+                  Translate
+                  Save
+                  ClipRect
+                  Translate
+                  DrawText
+                  RestoreToCount
+            DrawDisplayList
+DrawRect
+DrawBitmapRect
+DrawBitmapRect
+DrawPatch
+multiDraw
+  DrawPatch
+multiDraw
+  DrawPatch
+DrawBitmap
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmap
+DrawBitmapRect
+DrawBitmapRect
+multiDraw
+  DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawText
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawPatch
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawPatch
+DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           787788 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache     38400 /  6291456
+  PatchCache              47104 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA   4194304 /  4194304
+  FontRenderer 0 total  5242880 /  5242880
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  6116172 bytes, 5.83 MB
+
+Profile data in ms:
+
+	com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity/android.view.ViewRootImpl@43dfb6e0
+View hierarchy:
+
+  com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity/android.view.ViewRootImpl@43dfb6e0
+  355 views, 4.79 kB of display lists, 2083 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        355
+Total DisplayList:  4.79 kB
+
+
+** Graphics info for pid 19424 [com.tencent.mobileqq:MSF] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 19442 [com.tencent.mm] **
+
+Recent DisplayList operations
+                      RestoreToCount
+                    DrawDisplayList
+                      DrawPatch
+                      Save
+                      ClipRect
+                      DrawDisplayList
+                      DrawDisplayList
+                      RestoreToCount
+                    DrawDisplayList
+                      DrawPatch
+                      Save
+                      ClipRect
+                      DrawDisplayList
+                      DrawDisplayList
+                      RestoreToCount
+                    DrawDisplayList
+                      DrawPatch
+                      Save
+                      ClipRect
+                      DrawDisplayList
+                      DrawDisplayList
+                      RestoreToCount
+                    DrawDisplayList
+                      DrawPatch
+                      Save
+                      ClipRect
+                      DrawDisplayList
+                      DrawDisplayList
+                      RestoreToCount
+                    DrawDisplayList
+                      DrawPatch
+                      Save
+                      ClipRect
+                      DrawDisplayList
+                      DrawDisplayList
+                      RestoreToCount
+                    DrawDisplayList
+                      DrawPatch
+                      Save
+                      ClipRect
+                      DrawDisplayList
+                      DrawDisplayList
+                      RestoreToCount
+                    DrawPatch
+          DrawDisplayList
+    DrawDisplayList
+DrawRect
+multiDraw
+  DrawPatch
+DrawPatch
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          1339848 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache     38400 /  6291456
+  PatchCache              12608 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    1 /       16
+Total memory usage:
+  2439432 bytes, 2.33 MB
+
+Profile data in ms:
+
+	com.tencent.mm/com.tencent.mm.ui.LauncherUI/android.view.ViewRootImpl@43285638
+View hierarchy:
+
+  com.tencent.mm/com.tencent.mm.ui.LauncherUI/android.view.ViewRootImpl@43285638
+  444 views, 0.11 kB of display lists, 157 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        444
+Total DisplayList:  0.11 kB
+
+
+** Graphics info for pid 19537 [com.tencent.mm:push] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3800 [com.cootek.smartdialer_oem_module] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4131 [com.huawei.hisuite] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 6882 [android.process.media] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32229 [com.UCMobile:RemoteBackgroundProcess] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7427 [com.huawei.bd] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7107 [com.huawei.systemmanager] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 5207 [com.huawei.android.hwouc] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3687 [com.huawei.systemmanager:service] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7140 [com.google.android.gms] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7851 [com.taobao.taobao] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3572 [com.google.process.gapps] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7804 [com.taobao.taobao:channel] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 5000 [tv.danmaku.bili:pushservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 6898 [android.process.acore] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32202 [com.huawei.remoteassistant:cmsservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4976 [tv.danmaku.bili:download] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32244 [com.UCMobile] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4240 [com.huawei.phoneservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4033 [com.huawei.phoneservice:loguploadservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4008 [com.huawei.lcagent] **
+
+Recent DisplayList operations
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                RestoreToCount
+              DrawDisplayList
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  Translate
+                  RestoreToCount
+                  DrawBitmap
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  DrawText
+                  RestoreToCount
+              RestoreToCount
+        RestoreToCount
+      DrawDisplayList
+        Save
+        ClipRect
+        DrawDisplayList
+          DrawDisplayList
+            DrawPatch
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+          DrawDisplayList
+            DrawPatch
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+        RestoreToCount
+DrawPatch
+multiDraw
+  DrawPatch
+DrawText
+DrawText
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawText
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           131376 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache               1728 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  1181680 bytes, 1.13 MB
+
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3962 [com.huawei.phoneservice:usersurvey] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32215 [com.huawei.remoteassistant] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32171 [com.netease.newsreader.activity] **
+
+Recent DisplayList operations
+                                            RestoreToCount
+                                          RestoreToCount
+                                      DrawDisplayList
+                                        Save
+                                        Translate
+                                        DrawRect
+                                        RestoreToCount
+                                    DrawDisplayList
+                                      DrawDisplayList
+                                        DrawRect
+                                      DrawDisplayList
+                                        DrawDisplayList
+                                          Save
+                                          Save
+                                          Translate
+                                          Rotate
+                                          Translate
+                                          DrawBitmapRect
+                                          RestoreToCount
+                                        DrawDisplayList
+                                          Save
+                                          ClipRect
+                                          DrawText
+                                          RestoreToCount
+                      DrawDisplayList
+                        DrawDisplayList
+          DrawDisplayList
+  RestoreToCount
+DrawRect
+DrawColor
+DrawColor
+DrawColor
+DrawColor
+DrawColor
+DrawColor
+DrawBitmap
+DrawBitmapRect
+multiDraw
+  DrawBitmap
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawRect
+DrawRect
+DrawRect
+DrawRect
+DrawRect
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           908536 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache           32768 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache                512 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    2 /       16
+Total memory usage:
+  1990392 bytes, 1.90 MB
+
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 26278 [com.huawei.appmarket] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32155 [com.huawei.cloudwifi] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 6810 [com.huawei.android.totemweather] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32135 [com.huawei.android.pushagent] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32123 [com.huawei.android.hwouc:hwbdservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 25534 [com.huawei.android.hwouc:hwbd] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2988 [system] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3422 [com.google.process.location] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3436 [com.huawei.geofence] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3393 [com.baidu.input_huawei] **
+Profile data in ms:
+
+	InputMethod/android.view.ViewRootImpl@434001f8
+View hierarchy:
+
+  InputMethod/android.view.ViewRootImpl@434001f8
+  12 views, 0.00 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        12
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32057 [com.android.email] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3377 [com.qq.reader:xg_service_v2] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 6925 [com.huawei.android.ds] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32029 [com.huawei.wallet] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32007 [com.huawei.gallery.photoshare] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4261 [com.huawei.android.wfdft] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3187 [com.android.systemui] **
+
+Recent DisplayList operations
+              DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                  DrawDisplayList
+                    DrawDisplayList
+                      DrawBitmap
+                    DrawDisplayList
+                      DrawBitmap
+                  DrawDisplayList
+                    DrawBitmap
+          DrawDisplayList
+        DrawDisplayList
+      RestoreToCount
+  DrawDisplayList
+DrawPatch
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawDisplayList
+  DrawDisplayList
+    DrawPatch
+    DrawDisplayList
+      Save
+      ClipRect
+      DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+              DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                  DrawDisplayList
+                    DrawDisplayList
+                      DrawBitmap
+                    DrawDisplayList
+                      DrawBitmap
+                  DrawDisplayList
+                    DrawBitmap
+          DrawDisplayList
+        DrawDisplayList
+      RestoreToCount
+  DrawDisplayList
+DrawPatch
+DrawBitmap
+DrawBitmap
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         10873464 / 75497472
+  LayerCache           14712832 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache              11776 /   131072
+  FontRenderer 0 A8     2097152 /  2097152
+  FontRenderer 0 RGBA   4194304 /  4194304
+  FontRenderer 0 total  6291456 /  6291456
+Other:
+  FboCache                   16 /       16
+Total memory usage:
+  31889528 bytes, 30.41 MB
+
+Profile data in ms:
+
+	StatusBar/android.view.ViewRootImpl@441d8550
+	NavigationBar/android.view.ViewRootImpl@441cb870
+	SearchPanel/android.view.ViewRootImpl@432e7900
+View hierarchy:
+
+  StatusBar/android.view.ViewRootImpl@441d8550
+  594 views, 18.88 kB of display lists, 107821 frames rendered
+
+  NavigationBar/android.view.ViewRootImpl@441cb870
+  202 views, 1.20 kB of display lists, 13184 frames rendered
+
+  SearchPanel/android.view.ViewRootImpl@432e7900
+  4 views, 0.00 kB of display lists, 0 frames rendered
+
+
+Total ViewRootImpl: 3
+Total Views:        800
+Total DisplayList:  20.08 kB
+
+
+** Graphics info for pid 19326 [com.sina.weibo:remote] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 6710 [com.huawei.motionservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 19897 [com.sina.weibo.image] **
+
+Recent DisplayList operations
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawBitmapMatrix
+      DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawPatch
+                Translate
+                Save
+                ClipRect
+                Translate
+                DrawText
+                RestoreToCount
+            DrawDisplayList
+              DrawDisplayList
+                DrawPatch
+                Translate
+                Save
+                ClipRect
+                Translate
+                DrawText
+                RestoreToCount
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawPatch
+                Save
+                ClipRect
+                DrawDisplayList
+                  DrawBitmap
+                DrawDisplayList
+                  Translate
+                  Save
+                  ClipRect
+                  Translate
+                  DrawText
+                  RestoreToCount
+                RestoreToCount
+  RestoreToCount
+DrawRect
+DrawBitmapMatrix
+multiDraw
+  DrawPatch
+multiDraw
+  DrawText
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache            40176 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache     27520 /  6291456
+  PatchCache               3072 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  1119344 bytes, 1.07 MB
+
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 28042 [com.sina.weibo.imageservant] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 20953 [com.duowan.mobile:com.yy.pushsvc.PushService] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7088 [com.google.android.gms.wearable] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3878 [com.android.smspush] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7054 [com.huawei.bone] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32717 [com.android.providers.calendar] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3514 [com.huawei.ca] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 32757 [com.example.android.notepad] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 6824 [com.android.calendar] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7639 [com.huawei.dataservicediagnose] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3407 [com.amap.android.location] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3139 [com.android.keyguard] **
+
+Recent DisplayList operations
+DrawBitmap
+ResetColorFilter
+RestoreToCount
+DrawDisplayList
+  DrawDisplayList
+    DrawDisplayList
+    DrawDisplayList
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawBitmap
+            DrawDisplayList
+            DrawDisplayList
+            Save
+            ConcatMatrix
+            DrawBitmap
+            RestoreToCount
+DrawDisplayList
+  ClipRect
+  DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+Save
+SetupColorFilter
+DrawBitmap
+ResetColorFilter
+RestoreToCount
+DrawDisplayList
+  DrawDisplayList
+    DrawDisplayList
+    DrawDisplayList
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawBitmap
+            DrawDisplayList
+            DrawDisplayList
+            Save
+            ConcatMatrix
+            DrawBitmap
+            RestoreToCount
+DrawDisplayList
+  ClipRect
+  DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         20646292 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache   6244576 /  6291456
+  PatchCache               6464 /   131072
+  FontRenderer 0 A8     2097152 /  2097152
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  2097152 /  2097152
+Other:
+  FboCache                    3 /       16
+Total memory usage:
+  28994484 bytes, 27.65 MB
+
+Profile data in ms:
+
+	Keyguard/android.view.ViewRootImpl@4329e908
+View hierarchy:
+
+  Keyguard/android.view.ViewRootImpl@4329e908
+  1 views, 0.00 kB of display lists, 2820 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        1
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 8212 [com.duowan.mobile] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7654 [org.simalliance.openmobileapi.service:remote] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7493 [com.UCMobile:push] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 7007 [com.huawei.bone:PhoneService] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 5808 [com.huawei.android.pushagent.PushService] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3477 [com.huawei.android.powermonitor] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3502 [com.huawei.powergenie] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3459 [com.snowballtech.walletservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3620 [com.android.nfc:handover] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3526 [com.android.nfc] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3151 [com.vlife.huawei.wallpaper] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+

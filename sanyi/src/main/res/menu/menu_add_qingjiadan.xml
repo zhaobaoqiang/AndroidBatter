@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.fetech.sanyi.activity.AddQingjiadanActivity">
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="保存"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <view
+        android:background="@color/khaki"
+        android:id="@+id/tab"
+        class="com.wudoumi.batter.view.PagerSlidingTabStrip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fillViewport="false" />
+
+    <view
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        class="android.support.v4.view.ViewPager"
+        android:id="@+id/page" />
+
+
+</LinearLayout>

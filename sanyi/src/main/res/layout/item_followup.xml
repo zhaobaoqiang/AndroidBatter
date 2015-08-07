@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee">
+
+
+    <RelativeLayout
+        android:id="@+id/time_zhou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tiaozhen"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp">
+
+        <View
+            android:layout_centerHorizontal="true"
+            android:id="@+id/top_fengexian"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/iv_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top_fengexian"
+            android:src="@mipmap/icon_follow_last" />
+
+        <View
+            android:layout_below="@+id/iv_last"
+            android:layout_centerHorizontal="true"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/state_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/time_zhou"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_follow_huchu" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="昨天 9：00" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/state_parent"
+        android:layout_below="@+id/state_parent"
+        android:layout_marginTop="10dp"
+        android:text="月月参加三摩地三摩地 阿斯达岁的"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+
+    <View
+        android:id="@+id/tiaozhen"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/state_parent"
+        android:layout_below="@+id/content" />
+
+
+</RelativeLayout>

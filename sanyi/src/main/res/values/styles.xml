@@ -1,0 +1,281 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/app_toolbar_bg</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#3A5FCD</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- SearchView -->
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+
+
+        <!-- 溢出菜单文字颜色-->
+        <item name="textAppearanceLargePopupMenu">@style/OverflowMenuTextAppearance</item>
+
+        <!-- 溢出菜单图标颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+
+
+        <item name="drawerArrowStyle">@style/AppTheme.MyDrawerArrowStyle</item>
+
+
+        <item name="dropDownListViewStyle">@style/DropDownListViewStyle</item>
+
+        <item name="android:textColorPrimary">#000000</item>
+
+
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="actionMenuTextColor">@color/white</item>
+
+
+    </style>
+
+    <style name="AppTheme" parent="@style/AppBaseTheme"></style>
+
+
+    <style name="MenuTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <!--溢出菜单样式 -->
+    <style name="DropDownListViewStyle">
+
+        <item name="android:divider">#2d2d2d</item>
+        <item name="android:dividerHeight">@dimen/q1</item>
+        <item name="android:listSelector">@drawable/abc_item_background_holo_dark</item>
+
+    </style>
+
+
+    <!--溢出菜单样式 -->
+    <style name="OverflowMenuStyle">
+        <!--兼容Api 21之前的版本 -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:popupBackground">#4a4a4a</item>
+        <item name="android:divider">#2d2d2d</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:dropDownVerticalOffset">3dp</item>
+        <item name="android:dropDownHorizontalOffset">-5dp</item>
+
+    </style>
+
+
+    <!--溢出菜单文字样式-->
+    <style name="OverflowMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView" />
+
+
+    <!--自定义 navigation drarwer 的样式-->
+    <style name="AppTheme.MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">false</item>
+        <item name="color">#FFFFFF</item>
+    </style>
+
+
+    <style name="userInfo">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="userInfoEdit" parent="userInfo">
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">performClick</item>
+    </style>
+
+
+    <style name="myTheme" parent="android:Widget.Holo.DatePicker">
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+
+    <style name="heTongInfo">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="heTongInfo.title">
+        <item name="android:minEms">5</item>
+        <item name="android:maxEms">5</item>
+    </style>
+
+    <style name="heTongInfo.Goods">
+        <item name="android:layout_gravity">fill</item>
+    </style>
+
+    <style name="heTongInfo.Goods.Select">
+        <item name="android:drawableRight">@mipmap/icon_right</item>
+        <item name="android:onClick">performClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="heTongFenge">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:background">#eeeeee</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+
+
+    <style name="weekStyle">
+        <item name="layout_gravity">fill</item>
+        <item name="android:gravity">center</item>
+        <item name="layout_columnWeight">1</item>
+    </style>
+
+    <style name="weekStyle.Date">
+        <item name="android:textColor">@color/selector_week_textcolor</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+    <style name="tuihuanhuo">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:maxEms">5</item>
+        <item name="android:minEms">5</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="tuihuanhuoContent">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tuihuanhuoContent.Click">
+        <item name="android:drawableRight">@mipmap/icon_right</item>
+    </style>
+
+
+    <style name="gaijiaSelect" parent="tuihuanhuo">
+        <item name="android:maxEms">7</item>
+        <item name="android:minEms">7</item>
+    </style>
+
+    <style name="gaijiaRb">
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:drawableLeft">@drawable/rb_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="qingjiaTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:maxEms">5</item>
+        <item name="android:minEms">5</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="qingjiaContent">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="yindiuCb">
+        <item name="android:button">@null</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:drawableRight">@drawable/cb_bg</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+
+    <style name="orderInfo">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:maxEms">5</item>
+        <item name="android:minEms">5</item>
+    </style>
+
+    <style name="orderInfoContent">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="taskTitle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:maxEms">5</item>
+        <item name="android:minEms">5</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="taskContent">
+        <item name="layout_columnWeight">1</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="taskContent.Click">
+        <item name="android:onClick">perfromClick</item>
+        <item name="android:drawableRight">@mipmap/icon_right</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+
+    <style name="addJiesuanTitle">
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:maxEms">5</item>
+        <item name="android:minEms">5</item>
+    </style>
+
+    <style name="addJiesuanContent">
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="layout_columnWeight">1</item>
+    </style>
+
+    <style name="addJiesuanContent.Click">
+        <item name="android:drawableRight">@mipmap/icon_right</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

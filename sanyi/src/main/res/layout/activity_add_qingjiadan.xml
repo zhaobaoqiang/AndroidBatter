@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.activity.AddQingjiadanActivity"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <include layout="@layout/toolbar"/>
+
+    <View
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:padding="15dp"
+        android:gravity="left|top"
+        android:id="@+id/content"
+        android:hint="请输入请假事由"
+        android:minLines="4"
+        android:maxLines="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="类别"
+            style="@style/qingjiaTitle" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:clickable="true"
+            android:drawableRight="@mipmap/icon_right"
+            android:hint="请选择类别"
+            style="@style/qingjiaContent" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="开始"
+            style="@style/qingjiaTitle" />
+        <TextView
+            android:id="@+id/tv_start"
+            android:clickable="true"
+            android:drawableRight="@mipmap/icon_right"
+            android:hint="请选择开始时间"
+            style="@style/qingjiaContent" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="结束"
+            style="@style/qingjiaTitle" />
+        <TextView
+            android:id="@+id/tv_end"
+            android:clickable="true"
+            android:drawableRight="@mipmap/icon_right"
+            android:hint="请选择结束时间"
+            style="@style/qingjiaContent" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="申请人"
+            style="@style/qingjiaTitle" />
+        <TextView
+            android:id="@+id/tv_user"
+            style="@style/qingjiaContent" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="收件人"
+            style="@style/qingjiaTitle" />
+        <TextView
+            android:id="@+id/tv_reciver"
+            android:clickable="true"
+            android:drawableRight="@mipmap/icon_right"
+            android:hint="请选择开始时间"
+            style="@style/qingjiaContent" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>

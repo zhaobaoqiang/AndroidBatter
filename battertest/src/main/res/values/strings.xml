@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BatterTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_touch">TestTouch</string>
+
+
+
+
+
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_test_list_view_filter">TestListViewFilter</string>
+
+
+
+    <string name="search_hint">search</string>
+    <string name="empty_list_msg">No Results</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+
+    <string name="about_text">This is a sample of android-gif-drawable Library:
+        https://github.com/koral--/android-gif-drawable\nUsed icons are public domain, created by Dave Johnston.</string>
+    <string name="compound_text">This is a TextView with animated compound drawables</string>
+    <string name="gif_texture_view_stub">GifTextureView is available in API level 14+</string>
+    <string name="title_activity_test_properties">TestProperties</string>
+    <string name="title_activity_test_empty_loding_view">TestEmptyLodingView</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_test_sort_list">TestSortList</string>
+    <string name="title_activity_volley">VolleyActivity</string>
+    <string name="title_activity_view_pager_head">ViewPagerHeadActivity</string>
+    <string name="title_activity_test_my_view">TestMyViewActivity</string>
+    <string name="title_activity_caleder">CalederActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>

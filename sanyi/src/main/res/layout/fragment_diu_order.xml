@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.fragment.YingHetongFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/yixiangbumque"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户没有明确购买意向" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+        <CheckBox
+            android:id="@+id/hpbmy"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户对货品不满意" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+        <CheckBox
+            android:id="@+id/jgbmy"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户对价格不满意" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+        <CheckBox
+            android:id="@+id/pdbudaowei"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="前期铺垫不到位" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+
+        <CheckBox
+            android:id="@+id/peihebuhao"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接待配合不到位" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+
+        <CheckBox
+            android:id="@+id/xqbmq"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户需求把握不准" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+        <CheckBox
+            android:id="@+id/pyxrbg"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户带来的朋友信任度不够" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+
+        <CheckBox
+            android:id="@+id/lmyjbl"
+            style="@style/yindiuCb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="临门一脚不利" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightgray" />
+    </LinearLayout>
+</ScrollView>

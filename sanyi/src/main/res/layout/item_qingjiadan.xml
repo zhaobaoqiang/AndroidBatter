@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2015/06/27" />
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_zhanting_item"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:id="@+id/title"
+                android:padding="10dp"
+                android:text="事假"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/state"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="已申请"
+                android:textColor="@color/app_toolbar_bg"
+                android:textSize="16sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+
+                android:id="@+id/content"
+                android:padding="10dp"
+                android:text="请假内容"
+                app:layout_columnSpan="2"
+                app:layout_gravity="fill" />
+
+            <View
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:padding="10dp"
+                app:layout_columnSpan="2"
+                app:layout_gravity="fill" />
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间：" />
+
+                <TextView
+                    android:id="@+id/totalTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2天" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收件人：" />
+
+                <TextView
+                    android:id="@+id/reciver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="猪八戒" />
+            </LinearLayout>
+
+        </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.activity.CreateGoodsActivity"
+    android:id="@+id/root">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#eeeeee"
+                android:paddingBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="8dp"
+                android:text="基本信息" />
+
+            <com.wudoumi.batter.view.HorizontalListView
+                android:id="@+id/hListView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/q150">
+
+            </com.wudoumi.batter.view.HorizontalListView>
+
+            <GridLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="货号" />
+
+                <TextView
+                    style="@style/heTongInfo.Goods"
+                    android:hint="创建成功后自动获取" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="类型" />
+
+                <TextView
+                    android:id="@+id/tv_select_type"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择类型" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="器型" />
+
+                <TextView
+                    android:id="@+id/tv_select_qixing"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择器型" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="题材" />
+
+                <TextView
+                    android:id="@+id/tv_select_ticai"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择题材" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="征集价格" />
+
+                <EditText
+                    style="@style/heTongInfo.Goods"
+                    android:hint="请输入征集价格"
+                    android:inputType="numberDecimal" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="重量" />
+
+                <EditText
+                    style="@style/heTongInfo.Goods"
+                    android:hint="请输入重量" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="尺寸" />
+
+                <EditText
+                    style="@style/heTongInfo.Goods"
+                    android:hint="请输入尺寸" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="种水" />
+
+                <TextView
+                    android:id="@+id/tv_select_zhongshui"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择种水" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="颜色" />
+
+                <TextView
+                    android:id="@+id/tv_select_color"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择颜色" />
+
+
+                <View
+                    android:layout_height="8dp"
+                    android:layout_columnSpan="2"
+                    android:background="#eeeeee" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="单位" />
+
+                <TextView
+                    android:id="@+id/tv_select_danwei"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择单位" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="数量" />
+
+                <TextView
+                    style="@style/heTongInfo.Goods"
+                    android:text="1" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="包装盒" />
+
+                <TextView
+                    android:id="@+id/tv_select_baozhuang"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择包装盒" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="瑕疵" />
+
+                <TextView
+                    android:id="@+id/tv_select_xiaci"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择瑕疵" />
+
+                <View
+
+                    style="@style/heTongFenge" />
+
+                <TextView
+                    style="@style/heTongInfo.title"
+                    android:text="证书" />
+
+                <TextView
+                    android:id="@+id/tv_select_zhengshu"
+                    style="@style/heTongInfo.Goods.Select"
+                    android:hint="请选择证书" />
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

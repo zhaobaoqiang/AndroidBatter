@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/imageloder/java', 'src/myvolley/java', 'src/ioc/java', 'src/ormilt/core', 'src/ormilt/android', 'src/downloader/java', 'src/view/java']
+
+        }
+    }
+
+    compileOptions {
+        encoding "UTF-8"
+    }
+}
+
+
+
+dependencies {
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.7'
+    compile 'joda-time:joda-time:2.8.1'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:gridlayout-v7:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.2.1'
+    compile 'com.android.support:support-annotations:22.2.1'
+
+}

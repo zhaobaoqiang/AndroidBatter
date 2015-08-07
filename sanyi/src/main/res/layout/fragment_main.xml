@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:textColor="@color/main_tab_color"
+            android:id="@+id/radio_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_main_first"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_first" />
+
+        <RadioButton
+            android:textColor="@color/main_tab_color"
+            android:id="@+id/radio_resources"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_main_resources"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_resources" />
+
+        <RadioButton
+            android:textColor="@color/main_tab_color"
+            android:id="@+id/radio_customer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_main_customer"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_customer" />
+
+        <RadioButton
+            android:textColor="@color/main_tab_color"
+            android:id="@+id/radio_txl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_main_txl"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="通讯录" />
+
+    </RadioGroup>
+</LinearLayout>

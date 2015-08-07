@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2015/06/27" />
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_zhanting_item"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:gravity="right"
+                android:maxEms="5"
+                android:minEms="5"
+                android:padding="8dp"
+                android:text="货号："
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:id="@+id/goodsNo"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:text="Ps201556sds-21"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:gravity="right"
+                android:maxEms="5"
+                android:minEms="5"
+                android:padding="8dp"
+                android:text="应收："
+                android:textSize="16sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:id="@+id/yingshou"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:text="￥2000.00"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:gravity="right"
+                android:maxEms="5"
+                android:minEms="5"
+                android:padding="8dp"
+                android:text="已收："
+                android:textSize="16sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:id="@+id/yishou"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:text="￥2000.00"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:gravity="right"
+                android:maxEms="5"
+                android:minEms="5"
+                android:padding="8dp"
+                android:text="尾款："
+                android:textSize="16sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:id="@+id/weikuan"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:text="￥2000.00"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_gravity="fill" />
+
+
+            <TextView
+                android:gravity="right"
+                android:maxEms="5"
+                android:minEms="5"
+                android:padding="8dp"
+                android:text="附加费："
+                android:textSize="16sp"
+                app:layout_gravity="fill" />
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:textSize="16sp"
+                android:id="@+id/fujiafei"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:text="无"
+                app:layout_gravity="fill" />
+
+        </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

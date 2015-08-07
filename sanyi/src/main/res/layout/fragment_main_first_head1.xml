@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resources_manager"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="(6月)"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/icon1"
+            android:layout_width="@dimen/q312"
+            android:layout_height="@dimen/q70"
+            android:background="@color/transparent"
+            android:src="@mipmap/main_head1_icon_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon1"
+            android:layout_alignTop="@+id/icon1"
+            android:layout_toRightOf="@+id/icon1"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="1253"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qianzaikeghu"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/icon2"
+            android:layout_width="@dimen/q312"
+            android:layout_height="@dimen/q70"
+            android:layout_below="@+id/icon1"
+            android:layout_marginTop="@dimen/q12"
+            android:background="@color/transparent"
+            android:src="@mipmap/main_head1_icon_2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon2"
+            android:layout_alignTop="@+id/icon2"
+            android:layout_marginLeft="-15dp"
+            android:layout_toRightOf="@+id/icon2"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="633"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yixiangkehu"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/icon3"
+            android:layout_width="@dimen/q312"
+            android:layout_height="@dimen/q70"
+            android:layout_below="@+id/icon2"
+            android:layout_marginTop="@dimen/q12"
+            android:background="@color/transparent"
+            android:src="@mipmap/main_head1_icon_3" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon3"
+            android:layout_alignTop="@+id/icon3"
+            android:layout_marginLeft="-30dp"
+            android:layout_toRightOf="@+id/icon3"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="633"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhunkehu"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/icon4"
+            android:layout_width="@dimen/q312"
+            android:layout_height="@dimen/q70"
+            android:layout_below="@+id/icon3"
+            android:layout_marginTop="@dimen/q12"
+            android:background="@color/transparent"
+            android:src="@mipmap/main_head1_icon_4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon4"
+            android:layout_alignTop="@+id/icon4"
+            android:layout_marginLeft="-45dp"
+            android:layout_toRightOf="@+id/icon4"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="96"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhengshikehu"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000">
+
+    <ListView
+        android:cacheColorHint="@color/transparent"
+        android:background="@color/white"
+        android:divider="@color/gray"
+        android:dividerHeight="1px"
+        android:id="@+id/listview"
+        android:layout_width="@dimen/q500"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </ListView>
+</FrameLayout>

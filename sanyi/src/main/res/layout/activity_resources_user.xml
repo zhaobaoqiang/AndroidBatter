@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.activity.ResourcesUserActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/userinfo_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/q298"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <view
+            android:layout_weight="1"
+            android:id="@+id/tab"
+            class="com.wudoumi.batter.view.PagerSlidingTabStrip"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/q110"
+            android:background="#eeeeee"
+            android:fillViewport="false"
+            android:textColor="@color/selector_pst_textcolor"
+            android:textSize="18sp"
+            app:pstsDividerColor="@color/transparent"
+            app:pstsIndicatorColor="@color/app_toolbar_bg"
+            app:pstsIndicatorHeight="2dp"
+            app:pstsShouldExpand="true"
+            app:pstsTabPaddingLeftRight="@dimen/q1"
+            app:pstsUnderlineColor="@color/transparent" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:onClick="expand"
+            android:id="@+id/ib_expand"
+            android:padding="20dp"
+            android:src="@drawable/selector_expand"
+            android:background="@color/app_toolbar_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <view
+        android:id="@+id/page"
+        class="android.support.v4.view.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

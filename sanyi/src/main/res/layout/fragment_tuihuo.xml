@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    tools:context="cn.fetech.sanyi.fragment.TuihuoFragment">
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:columnCount="2">
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="待退货品" />
+
+        <TextView
+
+            style="@style/tuihuanhuoContent.Click"
+            android:hint="请选择待退货品" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="销售价格" />
+
+        <TextView
+            style="@style/tuihuanhuoContent"
+            android:text="￥3888.00" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="服务费" />
+
+        <EditText
+            android:inputType="number"
+            style="@style/tuihuanhuoContent"
+            android:hint="请输入服务费" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="货品检查" />
+
+        <TextView
+
+            style="@style/tuihuanhuoContent.Click"
+            android:hint="请选择货品检查" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="开户名" />
+
+        <EditText
+            style="@style/tuihuanhuoContent"
+            android:hint="请输入开户名" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="城市" />
+
+        <TextView
+            style="@style/tuihuanhuoContent.Click"
+            android:hint="请选择城市" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="开户银行" />
+
+        <EditText
+            style="@style/tuihuanhuoContent"
+            android:hint="请输入银行" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="开户帐号" />
+
+        <EditText
+
+            style="@style/tuihuanhuoContent"
+            android:hint="请输入开户帐号" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/lightgray"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="备注"
+            app:layout_columnSpan="2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="left|top"
+            android:hint="请填写备注内容"
+            android:maxLines="5"
+            android:minLines="5"
+            android:padding="10dp"
+            app:layout_columnSpan="2" />
+
+    </android.support.v7.widget.GridLayout>
+</ScrollView>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.fragment.YingHetongFragment">
+
+   <CheckBox
+       android:id="@+id/fuhebiaozhun"
+       android:text="货品符合标准"
+       style="@style/yindiuCb"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <CheckBox
+        android:id="@+id/jiageheli"
+        android:text="货品价格合理"
+        style="@style/yindiuCb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <CheckBox
+        android:id="@+id/pddaowei"
+        android:text="铺垫到位，对平台非常信任"
+        style="@style/yindiuCb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <CheckBox
+        android:id="@+id/bawoxinli"
+        android:text="专家能准确把握客户心理"
+        style="@style/yindiuCb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <CheckBox
+        android:id="@+id/peihehao"
+        android:text="接待配合非常好"
+        style="@style/yindiuCb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

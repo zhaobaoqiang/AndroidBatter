@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical"
+
+    tools:context="cn.fetech.sanyi.activity.MimeActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/gerenziliao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="performClick"
+        android:padding="20dp"
+        android:text="个人资料"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/renwuzhxin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="performClick"
+        android:padding="20dp"
+        android:text="任务中心"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/xiaoxizhxin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="performClick"
+        android:padding="20dp"
+        android:text="消息中心"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/qingjiadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="performClick"
+        android:padding="20dp"
+        android:text="请假单"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

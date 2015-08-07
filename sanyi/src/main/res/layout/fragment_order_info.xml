@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="cn.fetech.sanyi.fragment.OrderInfoFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#eeeeee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/orderInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号" />
+
+        <TextView
+            style="@style/orderInfoContent"
+
+            android:hint="提交之后自动生成" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/orderInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客户姓名" />
+
+        <TextView
+            style="@style/orderInfoContent"
+
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/orderInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话" />
+
+        <EditText
+            style="@style/orderInfoContent"
+
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/orderInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="业务员" />
+
+        <TextView style="@style/orderInfoContent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/orderInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="销售日期" />
+
+        <TextView
+            android:hint="请选择销售日期"
+            android:drawableRight="@mipmap/icon_right"
+            style="@style/orderInfoContent"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/orderInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="销售途径" />
+
+        <TextView
+            android:hint="请选择销售途径"
+            android:drawableRight="@mipmap/icon_right"
+            style="@style/orderInfoContent"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#eeeeee" />
+</LinearLayout>

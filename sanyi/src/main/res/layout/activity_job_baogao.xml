@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.activity.JobBaogaoActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <view
+
+        android:id="@+id/tab"
+        class="com.wudoumi.batter.view.PagerSlidingTabStrip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/lightgray"
+        android:fillViewport="false"
+        android:textColor="@color/selector_pst_textcolor"
+        android:textSize="18sp"
+        app:pstsIndicatorColor="@color/app_toolbar_bg"
+        app:pstsIndicatorHeight="2dp"
+        app:pstsShouldExpand="true"
+        app:pstsUnderlineColor="@color/transparent" />
+
+    <view
+        android:id="@+id/page"
+        class="android.support.v4.view.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

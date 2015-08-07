@@ -1,0 +1,86 @@
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    app:columnCount="2"
+    tools:context="cn.fetech.sanyi.fragment.QuhuoFragment">
+
+    <View
+        android:visibility="gone"
+        android:layout_height="20dp"
+        android:background="@color/lightgray"
+        app:layout_columnSpan="2" />
+
+    <TextView
+        style="@style/tuihuanhuo"
+        android:text="委托人" />
+
+    <TextView
+
+        style="@style/tuihuanhuoContent"
+        android:text="唐三藏" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        app:layout_columnSpan="2" />
+
+    <TextView
+        style="@style/tuihuanhuo"
+        android:text="证件号" />
+
+    <EditText
+        style="@style/tuihuanhuoContent"
+        android:hint="请输入证件号" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        app:layout_columnSpan="2" />
+
+    <TextView
+        style="@style/tuihuanhuo"
+        android:text="联系方式" />
+
+    <EditText
+        style="@style/tuihuanhuoContent"
+        android:hint="请输入电话"
+        android:inputType="phone" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        app:layout_columnSpan="2" />
+
+
+    <TextView
+        style="@style/tuihuanhuo"
+        android:text="办理日期" />
+
+    <EditText
+        style="@style/tuihuanhuoContent.Click"
+        android:hint="请选择日期"
+        android:inputType="phone" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        app:layout_columnSpan="2" />
+
+    <TextView
+        style="@style/tuihuanhuo"
+        android:text="办理人" />
+
+    <TextView
+        style="@style/tuihuanhuoContent"
+        android:inputType="phone" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        app:layout_columnSpan="2" />
+
+</android.support.v7.widget.GridLayout>

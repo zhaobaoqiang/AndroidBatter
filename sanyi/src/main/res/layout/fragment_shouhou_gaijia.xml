@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    tools:context="cn.fetech.sanyi.fragment.ShouhouGaijiaFragment">
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:columnCount="2">
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="相关货品" />
+
+        <TextView
+
+            style="@style/tuihuanhuoContent.Click"
+            android:text="Psdfsdf" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="原价" />
+
+        <TextView
+            style="@style/tuihuanhuoContent"
+            android:text="￥3888.00" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="现价" />
+
+        <EditText
+            style="@style/tuihuanhuoContent"
+            android:hint="请输入现价" />
+
+        <View
+            android:layout_height="20dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/gaijiaSelect"
+            android:text="客户确认" />
+
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center_vertical">
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="是" />
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="否" />
+        </RadioGroup>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/gaijiaSelect"
+            android:text="供应链变更" />
+
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center_vertical">
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="是" />
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="否" />
+        </RadioGroup>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/gaijiaSelect"
+            android:text="结算中心变更" />
+
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center_vertical">
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="是" />
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="否" />
+        </RadioGroup>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/gaijiaSelect"
+            android:text="网站变更" />
+
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center_vertical">
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="是" />
+
+            <RadioButton
+                style="@style/gaijiaRb"
+                android:text="否" />
+        </RadioGroup>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+    </android.support.v7.widget.GridLayout>
+</ScrollView>
+

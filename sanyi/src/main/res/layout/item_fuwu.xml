@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2015/06/27" />
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_zhanting_item"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:id="@+id/title"
+                android:padding="8dp"
+                android:text="退货"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+            <TextView
+                android:gravity="right"
+                app:layout_gravity="fill"
+                android:id="@+id/state"
+                android:padding="8dp"
+                android:text="已申请变更"
+                android:textColor="@color/app_toolbar_bg"
+                android:textSize="16sp" />
+
+            <TextView
+                app:layout_gravity="fill"
+                app:layout_columnSpan="2"
+                android:id="@+id/content"
+                android:padding="10dp"
+                android:text="服务内容"/>
+
+
+        </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

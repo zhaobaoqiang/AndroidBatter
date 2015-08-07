@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wudoumi.batter.view.animation.shimmer.ShimmerTextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/shimmer_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#242424"
+        android:text="正在加载 请稍后..."
+        android:textColor="#444"
+        android:textSize="20sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:background="#242424"
+        android:id="@+id/gifImageView"
+        android:layout_weight="1"
+        android:src="@drawable/a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>

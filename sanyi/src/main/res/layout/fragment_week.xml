@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="cn.fetech.sanyi.fragment.WeekFragment">
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="7">
+
+        <ImageButton
+            android:id="@+id/weekLeft"
+            android:layout_width="50dp"
+            android:background="@color/transparent"
+            android:padding="10dp"
+            android:src="@mipmap/icon_week_left" />
+
+        <TextView
+            android:id="@+id/time"
+            android:gravity="center"
+            android:text="2015年6月"
+            app:layout_columnSpan="5"
+            app:layout_gravity="fill" />
+
+        <ImageButton
+            android:id="@+id/weekRight"
+            android:layout_width="50dp"
+            android:background="@color/transparent"
+            android:padding="10dp"
+            android:src="@mipmap/icon_week_right" />
+
+        <android.widget.Space
+            android:layout_height="8dp"
+            app:layout_columnSpan="7"
+            app:layout_gravity="fill" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="日" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="一" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="二" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="三" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="四" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="五" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="六" />
+
+
+        <android.widget.Space
+            android:layout_height="8dp"
+            app:layout_columnSpan="7"
+            app:layout_gravity="fill" />
+
+
+        <TextView
+            android:id="@+id/week0"
+            style="@style/weekStyle.Date"
+            android:text="21" />
+
+        <TextView
+            android:id="@+id/week1"
+            style="@style/weekStyle.Date"
+            android:text="22" />
+
+        <TextView
+            android:id="@+id/week2"
+            style="@style/weekStyle.Date"
+            android:text="23" />
+
+        <TextView
+            android:id="@+id/week3"
+            style="@style/weekStyle.Date"
+            android:text="24" />
+
+        <TextView
+            android:id="@+id/week4"
+            style="@style/weekStyle.Date"
+            android:text="25" />
+
+        <TextView
+            android:id="@+id/week5"
+            style="@style/weekStyle.Date"
+            android:text="26" />
+
+        <TextView
+            android:id="@+id/week6"
+            style="@style/weekStyle.Date"
+            android:text="27" />
+
+    </android.support.v7.widget.GridLayout>
+
+
+</LinearLayout>
+
+

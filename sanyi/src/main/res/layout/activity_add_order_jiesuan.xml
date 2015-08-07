@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.fetech.sanyi.activity.AddOrderJiesuanActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="2">
+
+        <TextView
+            style="@style/addJiesuanTitle"
+            android:text="订单号" />
+
+        <TextView
+            style="@style/addJiesuanContent.Click"
+            android:hint="请选择订单" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            style="@style/addJiesuanTitle"
+            android:text="实付" />
+
+        <EditText
+            style="@style/addJiesuanContent"
+            android:hint="请输入实付"
+            android:inputType="number" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            style="@style/addJiesuanTitle"
+            android:text="支付方式" />
+
+        <TextView
+            style="@style/addJiesuanContent.Click"
+            android:hint="请选择支付方式" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            style="@style/addJiesuanTitle"
+            android:text="合计" />
+
+        <EditText
+            style="@style/addJiesuanContent"
+            android:hint="请输入合计"
+            android:inputType="number" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            style="@style/addJiesuanTitle"
+            android:text="尾款" />
+
+        <EditText
+            style="@style/addJiesuanContent"
+            android:hint="请输入尾款"
+            android:inputType="number" />
+
+        <TextView
+            android:background="@color/lightgray"
+            android:paddingBottom="8dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="8dp"
+            android:text="备注"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1" />
+
+        <EditText
+            android:gravity="left|top"
+            android:maxLines="5"
+            android:minLines="5"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1"
+            style="@style/addJiesuanContent"
+            android:hint="请输入备注内容" />
+
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

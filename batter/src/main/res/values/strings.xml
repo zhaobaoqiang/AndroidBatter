@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Batter</string>
+
+    <string name="none_init_in_application">请在Application的onCreat里执行init</string>
+
+
+    <string name="batter_loding">正在加载，请稍候...</string>
+
+    <string name="batter_retry">重试</string>
+
+    <string name="batter_error">错误信息：</string>
+
+
+
+    <string name="batter_time_next">Next</string>
+    <string name="batter_time_prev">Previous</string>
+</resources>

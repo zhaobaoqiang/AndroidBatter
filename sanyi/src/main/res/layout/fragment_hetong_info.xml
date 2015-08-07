@@ -1,0 +1,143 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal"
+    tools:context="cn.fetech.sanyi.fragment.HetongInfoFragment">
+
+    <View
+        android:layout_height="8dp"
+        android:layout_columnSpan="2"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="合同号" />
+
+    <TextView
+        style="@style/heTongInfo"
+        android:text="0222222" />
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="征集人" />
+
+    <TextView
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:text="张三" />
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="供应商" />
+
+    <TextView
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:drawableRight="@mipmap/icon_right"
+        android:text="李成功" />
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="手机" />
+
+    <EditText
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:hint="请输入手机号"
+        android:inputType="phone" />
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="开户行" />
+
+    <TextView
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:drawableRight="@mipmap/icon_right"
+        android:hint="请选择开户行" />
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="开户支行" />
+
+    <EditText
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:hint="请填写开户支行" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="开户人" />
+
+    <TextView
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:drawableRight="@mipmap/icon_right"
+        android:hint="请选择开户人" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#eeeeee" />
+
+    <TextView
+        style="@style/heTongInfo.title"
+        android:text="银行帐号" />
+
+    <EditText
+        style="@style/heTongInfo"
+        android:layout_gravity="fill"
+        android:hint="请输入银行账号"
+        android:inputType="number" />
+
+</GridLayout>

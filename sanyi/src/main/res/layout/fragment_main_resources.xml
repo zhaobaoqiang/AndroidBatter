@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_serach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_serach"
+        android:drawableRight="@mipmap/icon_serach"
+        android:gravity="center_vertical|left"
+        android:hint="@string/serach"
+        android:padding="5dp"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#eeeeee"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <view
+            android:id="@+id/tab"
+            class="com.wudoumi.batter.view.PagerSlidingTabStrip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:fillViewport="false"
+            android:textColor="@color/selector_pst_textcolor"
+            android:textSize="18sp"
+            app:pstsIndicatorColor="@color/app_toolbar_bg"
+            app:pstsIndicatorHeight="2dp"
+            app:pstsShouldExpand="true"
+            app:pstsUnderlineColor="@color/transparent" />
+
+        <ImageButton
+            android:id="@+id/ic_chooce"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/white"
+            android:scaleType="center"
+            android:src="@mipmap/icon_chooice" />
+
+    </LinearLayout>
+
+
+    <view
+        android:id="@+id/page"
+        class="android.support.v4.view.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

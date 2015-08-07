@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    tools:context="cn.fetech.sanyi.fragment.HuanhuoFragment">
+
+
+    <android.support.v7.widget.GridLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="2">
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="待换货品" />
+
+        <TextView
+
+            style="@style/tuihuanhuoContent.Click"
+            android:hint="请选择待换货品" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="销售价格" />
+
+        <TextView
+            style="@style/tuihuanhuoContent"
+            android:text="￥3888.00" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="服务费" />
+
+        <EditText
+            android:inputType="number"
+            style="@style/tuihuanhuoContent"
+            android:hint="请输入服务费" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="货品检查" />
+
+        <TextView
+
+            style="@style/tuihuanhuoContent.Click"
+            android:hint="请选择货品检查" />
+
+        <View
+            android:layout_height="20dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="现货编号" />
+
+        <TextView
+
+            style="@style/tuihuanhuoContent.Click"
+            android:text="Psdfsdf" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="销售价格" />
+
+        <TextView
+            style="@style/tuihuanhuoContent"
+            android:text="￥3888.00" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            app:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/tuihuanhuo"
+            android:text="差价" />
+
+        <TextView style="@style/tuihuanhuoContent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/lightgray"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="备注"
+            app:layout_columnSpan="2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="left|top"
+            android:hint="请填写备注内容"
+            android:maxLines="5"
+            android:minLines="5"
+            android:padding="10dp"
+            app:layout_columnSpan="2" />
+
+    </android.support.v7.widget.GridLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/q626"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/main_first_head"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/q526" />
+
+        <FrameLayout
+            android:id="@+id/header_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/q100"
+            android:layout_gravity="bottom"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/today_task"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/today_task"
+                        android:textColor="@color/main_tab_color"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/week_task"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/week_task"
+                        android:textColor="@color/main_tab_color"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/more"
+                    android:clickable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/more"
+                    android:textColor="@color/main_tab_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

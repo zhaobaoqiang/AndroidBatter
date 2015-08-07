@@ -1,0 +1,1 @@
+include ':batter', ':battertest', ':sanyi', ':testjava', ':httptest', ':photogallery'

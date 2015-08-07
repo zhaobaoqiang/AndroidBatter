@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wudoumi.battertest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".BatterApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".toolbar.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".TestPullListview"
+            android:label="@string/title_activity_test_touch" />
+        <activity
+            android:name=".TestListViewFilter"
+            android:label="TestListViewFilter"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestListView"
+            android:label="@string/title_activity_test_list_view_filter" />
+        <activity
+            android:name=".test.Main3Activity"
+            android:label="@string/title_activity_main3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.TestShimmer"
+            android:label="文字闪动">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.MainActivity"
+            android:label="GIF动画">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.TestProperties"
+            android:label="@string/title_activity_test_properties">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.TestEmptyLodingView"
+            android:label="@string/title_activity_test_empty_loding_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".testemptyview.Main4Activity"
+            android:label="fragment加载">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".testemptyview.TestSortList"
+            android:label="@string/title_activity_test_sort_list">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.VolleyActivity"
+            android:label="@string/title_activity_volley">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".testemptyview.ViewPagerHeadActivity"
+            android:label="@string/title_activity_view_pager_head">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestMyViewActivity"
+            android:label="@string/title_activity_test_my_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test.CalederActivity"
+            android:label="@string/title_activity_caleder">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startmode.FirstActivity"
+            android:label="@string/title_activity_first"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wudoubi.batter.simplecode" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startmode.SecondActivity"
+            android:label="@string/title_activity_second"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.GridLayout
+        app:columnCount="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="50dp"
+            android:padding="10dp"
+            android:id="@+id/weekLeft"
+            android:background="@color/transparent"
+            android:src="@mipmap/icon_week_left" />
+
+        <TextView
+            app:layout_columnSpan="5"
+            android:id="@+id/time"
+            app:layout_gravity="fill"
+            android:gravity="center"
+            android:text="2015年6月" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:padding="10dp"
+            android:id="@+id/weekRight"
+            android:background="@color/transparent"
+            android:src="@mipmap/icon_week_right" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
